@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BmiCalculatorFragment">
+
+    <TextView
+        android:id="@+id/calculatorTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"
+        android:text="@string/calculator"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <EditText
+        android:id="@+id/weightEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:hint="@string/enter_weight_in_kg"/>
+
+    <EditText
+        android:id="@+id/heightEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_height_in_meter"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="20dp">
+
+    <Button
+        android:id="@+id/calculateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

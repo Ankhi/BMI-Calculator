@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Result"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"
+        ></TextView>
+
+
+        <TextView
+            android:id="@+id/scoreShowTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Your BMI Score Is 22.3"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            >
+
+        </TextView>
+
+
+    <ImageView
+        android:id="@+id/imageId"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_pregnant_woman_24">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="50dp"
+        android:text="BMI CHART"
+        android:textColor="@color/purple_700"
+        android:textSize="30sp"></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/bmi">
+
+
+    </ImageView>
+
+   <!-- <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bmi_values_table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"/>-->
+
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="horizontal">
+         <LinearLayout
+             android:layout_width="210dp"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             >
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="40dp"
+                 android:text="BMI"
+                 android:textSize="20dp"
+                 android:textAlignment="center"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Below 18.5 \n\n 18.5—24.9 \n\n 25.0—29.9 \n\n 30.0 and Above"
+                 android:textSize="15dp"
+                 android:textAlignment="center"/>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="200dp"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             >
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Weight Status"
+                 android:textSize="20dp"
+                 android:textAlignment="center"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                 android:text="Underweight \n\n Healthy \n\n Overweight \n\n Obese"
+                 android:textAlignment="center"/>
+
+         </LinearLayout>
+     </LinearLayout>-->
+
+
+
+</LinearLayout>
